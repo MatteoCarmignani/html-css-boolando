@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6900;
+}
+
+#top-bar {
+     /*debug*/
+    height: 60px;
+}
+
+#top-bar-container {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    /*debug*/
+}
+
+#età-sesso {
+    width: 30%;
+    color: white;
+    /*debug
+    background-color: yellow;  
+    height: 20px;*/
+}
+
+#logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#immagine-logo {
+    width: 30%
+}
+
+#social {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    /*debug
+    background-color: yellow;
+    border-color: black; 
+    height: 20px;*/
+}
