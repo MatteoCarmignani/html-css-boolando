@@ -11,8 +11,8 @@ header {
 }
 
 #top-bar {
-     /*debug*/
     height: 60px;
+
 }
 
 #top-bar-container {
@@ -54,6 +54,7 @@ header {
  #main-container {
     width: 70%;
     margin: 0 auto;
+    margin-top: 30px;
  }
 
  .row {
@@ -64,8 +65,86 @@ header {
 
  .column {
     width: calc((100% / 3) - (20px / 3));
-    /*debug*/
-    background-color: blue;
-    height: 150px;
-    border: 1px dotted black;
+ }
+
+ .card {
+    position: relative;
+ }
+
+ .card img {
+    max-width: 100%;
+ }
+
+ /*Container riquadro*/
+
+ .container-riquadro {
+    margin-top: -6px;
+    font-size: 12px;
+
+ }
+
+ .sconto {
+    color: red;
+ }
+
+ .discount-immagine {
+    padding: 4px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    bottom: 58px;
+    left: 0px;
+ }
+
+ .sostenibilita {
+    padding: 4px;
+    background-color: #008000;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    bottom: 58px;
+    left: 30px;
+ }
+
+ .sostenibilita-solo {
+    padding: 4px;
+    background-color: #008000;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    position: absolute;
+    bottom: 58px;
+    left: 0px;
+ }
+
+ .cuore {
+    padding: 4px;
+    background-color: white;
+    color: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+ }
+
+ .cuore:hover {
+    color: red;
+ }
+
+ /* immagini che cambiano*/
+ .immagine-1 {
+    position: relative;
+ }
+
+ .immagine-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+ }
+
+ .card:hover .immagine-2 {
+    opacity: 1;
  }
